@@ -1,7 +1,7 @@
 import style from "./ClientItem.module.css";
 const ClientItem = ({ id, name, lastName, onClick }) => {
   return (
-    <tr>
+    <tr data-list={id}>
       <td>{name}</td>
       <td>{lastName}</td>
       <td>
