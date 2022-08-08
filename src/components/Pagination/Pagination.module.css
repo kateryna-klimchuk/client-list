@@ -1,0 +1,21 @@
+.container {
+  padding-top: 20px;
+  display: flex;
+  column-gap: 10px;
+}
+
+.paginationButton {
+  padding: 4px 20px;
+  border: none;
+
+  cursor: pointer;
+  border-radius: 2px;
+  background-color: rgb(149, 154, 154);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.paginationButton:hover {
+  color: white;
+  background-color: rgb(60, 60, 62);
+}
